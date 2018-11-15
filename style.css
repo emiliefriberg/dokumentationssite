@@ -1,0 +1,86 @@
+/***** generelle styles *****/
+
+body {
+    font-family: futura;
+    background-color: #97cbe2;
+}
+
+figure {
+    margin: 0;
+    width: 100%;
+
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #e79545;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h2,
+h3 {
+    color: #152230;
+}
+
+p {
+    color: #152230;
+}
+
+/***** nav *****/
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    font-family: futura;
+    color: #152230;
+}
+
+header nav a {
+    font-size: 1rem;
+    color: #152230;
+}
+
+/* unvisited link */
+header nav a:link {
+    text-decoration: none;
+    color: #152230;
+}
+
+/* visited link */
+header nav a:visited {
+    color: #152230;
+}
+
+/* mouse over link */
+header nav a:hover {
+    text-decoration: underline;
+    color: #152230;
+}
+
+/*nav slut*/
+
+
+.logo {
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
