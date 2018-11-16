@@ -38,6 +38,10 @@ p {
     color: #152230;
 }
 
+.links {
+    font-size: 1.2rem;
+}
+
 
 /***** nav *****/
 
@@ -45,31 +49,31 @@ header nav {
     display: flex;
     flex-direction: column;
     font-family: futura;
-    color: #152230;
+    color: #e8ebec;
     padding: 0.1rem;
 }
 
 header nav a {
     font-size: 1.2rem;
-    color: #152230;
+    color: #e8ebec;
 
 }
 
 /* unvisited link */
 header nav a:link {
     text-decoration: none;
-    color: #152230;
+    color: #e8ebec;
 }
 
 /* visited link */
 header nav a:visited {
-    color: #152230;
+    color: #e8ebec;
 }
 
 /* mouse over link */
 header nav a:hover {
     text-decoration: underline;
-    color: #e8ebec;
+    color: #152230;
     font-size: 2rem;
 }
 
@@ -79,13 +83,13 @@ header nav a:hover {
 /****** links *****/
 
 a.links {
-    color: #152230;
+    color: #e8ebec;
     text-decoration: none;
 }
 
 a.links:hover {
     text-decoration: underline;
-    color: #e8ebec;
+    color: #152230;
     font-size: 2rem;
 }
 
